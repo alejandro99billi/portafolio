@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NotFoundModule } from './pages/not-found/not-found.module';
 
 
 
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'contact-me',
     loadChildren: () => import('./pages/contact-me/contact-me.module').then((m) => m.ContactMeModule),
+  },
+  {
+    path: '**',
+    loadChildren: () => import('./pages/not-found/not-found.module').then((m) => m.NotFoundModule),
   },
 ];
 

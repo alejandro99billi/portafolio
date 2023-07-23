@@ -11,5 +11,11 @@ export class ContactMeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+   
+  sendMail(){
+    window.location.href = 'mailto:alejandrobilly19@gmail.com';
+  }
+
+
 
 }
