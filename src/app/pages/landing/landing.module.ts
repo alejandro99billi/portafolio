@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LandingRoutingModule } from './landing-routing.module';
 import { LandingComponent } from './landing.component';
+import { BreadcumbModule } from 'src/app/components/breadcumb/breadcumb.module';
 
 
 
@@ -12,6 +13,7 @@ import { LandingComponent } from './landing.component';
   imports: [
     CommonModule,
     LandingRoutingModule,
+    BreadcumbModule,
   ]
 })
 export class LandingModule { }

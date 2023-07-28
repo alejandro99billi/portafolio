@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { BreadcumbComponent } from './breadcumb.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [BreadcumbComponent],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+  ],
+  exports:[BreadcumbComponent]
 })
 export class BreadcumbModule { }
