@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BreadcumbComponent } from './components/breadcumb/breadcumb.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -15,6 +16,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
  
   ],
   providers: [],
