@@ -1,12 +1,8 @@
+@import './contants.scss';
 /* You can add global styles to this file, and also import other style files */
 
 $landingBackgroundImage: "../assets/images/backgrounds/landingPage.jpg";
 // Definición de variables con los colores obtenidos de la imagen de landing
-$color-primary: #6A3FA6;
-$color-secondary: #997EBF;
-$color-background: #F2F2F2;
-$color-accent-1: #E7DCF2;
-$color-accent-2: #6136BF;
 
 // Estilos globales
 body {
