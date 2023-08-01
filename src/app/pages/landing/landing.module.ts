@@ -5,6 +5,7 @@ import { LandingComponent } from './landing.component';
 import { BreadcumbModule } from 'src/app/components/breadcumb/breadcumb.module';
 import { FooterComponent } from 'src/app/components/footer/footer.component';
 import { FooterModule } from 'src/app/components/footer/footer.module';
+import { TopbarModule } from '../../components/topbar/topbar.module';
 
 
 
@@ -17,6 +18,7 @@ import { FooterModule } from 'src/app/components/footer/footer.module';
     LandingRoutingModule,
     BreadcumbModule,
     FooterModule,
+    TopbarModule,
   ]
 })
 export class LandingModule { }
