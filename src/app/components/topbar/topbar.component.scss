@@ -2,4 +2,10 @@
 .container{
     background-color:  $color-primary;
     height: 100px;
+    display: flex;
+    
+}
+
+.icons{
+    width: 25%;
 }
